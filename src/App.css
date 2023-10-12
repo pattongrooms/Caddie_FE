@@ -1,0 +1,226 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Anton", sans-serif;
+
+}
+
+
+
+body {
+  margin: 0;
+  font-size: 15px;
+  font-family: "Anton", sans-serif;
+  background-color: seashell;
+  
+}
+
+/* .App.light {
+  background-color: seashell;
+  color: black;
+}
+
+.App.dark {
+  background-color: black;
+  color: gold;
+}
+
+.darkButton {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: flex-start;
+  margin: 2px;
+  border: 1px solid white;
+  padding: 5px;
+} */
+
+
+.nav-container {
+  background-color: #333;
+  color: whitesmoke;
+  padding: 1rem;
+}
+
+.nav-logo {
+  text-decoration: none;
+  color: black;
+  text-shadow: -1px -1px 0 seashell, 1px -1px 0 seashell, -1px 1px 0 seashell, 1px 1px 0 seashell;
+}
+
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* .image-container {
+  display: flex;
+  align-items: center;
+}
+
+.image-container img {
+  width: 40px;
+  height: 40px;
+} */
+
+.nav-options {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.nav-options a {
+  text-decoration: none;
+  color: seashell;
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+}
+
+.nav-options a:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.feed-container {
+  width: 50%;
+  height: 100%;
+  margin: 0 auto;
+  padding: 2rem;
+  justify-content: center;
+  align-items: center;
+  background-image: url('https://images.unsplash.com/photo-1593111774240-d529f12cf4bb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1176&q=80')!important;
+  
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.blog-card {
+  max-width: 30vw;
+  margin: 0 auto;
+  margin-bottom: 4rem;
+  text-align: center;
+  padding: 3rem; 
+  border: 1px solid #ccc;
+  border-radius: 1rem; 
+  background-color: green;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  color: Yellow;
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+  border: 4px solid black;
+}
+
+
+
+.new-blog-card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  text-align: center;
+  gap: 4rem; 
+  color: white;
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+}
+
+.blog-post-card {
+  max-width: 20rem; 
+  width: 30%; 
+  padding: 1.5rem; 
+  border: 4px solid black;
+  border-radius: 1rem; 
+  background-color: green;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1); 
+  color: white;
+}
+
+.blog-post-card h4 {
+  margin-bottom: 1rem; 
+}
+
+.blog-post-card button {
+  margin: 2rem auto;
+}
+
+.course-container {
+  width: 50%;
+  height: 100vh;
+  margin: 0 auto;
+  padding: 2rem;
+  justify-content: center;
+  align-items: center;
+  background-image: url('https://images.unsplash.com/photo-1500932334442-8761ee4810a7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80')!important;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.tour-container {
+  width: 50%;
+  height: 100vh;
+  margin: 0 auto;
+  padding: 2rem;
+  justify-content: center;
+  align-items: center;
+  background-image: url('https://cdn.mos.cms.futurecdn.net/nj8RcJBU9Fx3HwTujmTYBQ.jpg')!important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+}
+
+.tour-list {
+  overflow-y: auto; 
+  max-height: 80vh; 
+  width: 70%;
+  margin: 0 auto;
+}
+
+.tour-list ol {
+  list-style: none; 
+  padding: 0;
+}
+
+.tour-list li {
+  color: white; 
+  font-size: 16px; 
+  padding: 8px 16px; 
+  border: 1px solid black; 
+  margin-bottom: 8px; 
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+}
+
+
+.signin-col {
+  width: 100vw;
+  height: 98vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.signin-card {
+  padding: 5em;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+}
+
+.col input {
+  margin-bottom: 1em;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.signin-button {
+}
